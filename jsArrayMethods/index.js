@@ -141,27 +141,27 @@ let niz = [1, 5, 11, 3]
 // console.log(niz.sort((a, b) => b - a))
 // console.log(nizObj.sort((a, b) => a.name - b.name)) // NE RADI
 // ISPRAVKA
-const items = [
-    { name: "Edward", value: 21 },
-    { name: "Sharpe", value: 37 },
-    { name: "And", value: 45 },
-    { name: "The", value: -12 },
-    { name: "Magnetic", value: 13 },
-    { name: "Zeros", value: 37 },
-];
+// const items = [
+//     { name: "Edward", value: 21 },
+//     { name: "Sharpe", value: 37 },
+//     { name: "And", value: 45 },
+//     { name: "The", value: -12 },
+//     { name: "Magnetic", value: 13 },
+//     { name: "Zeros", value: 37 },
+// ];
 
-console.log(items.sort((a, b) => {
-    const nameA = a.name // ignore upper and lowercase
-    const nameB = b.name // ignore upper and lowercase
-    if (nameA > nameB) {
-        return 1;
-    }
-    if (nameA < nameB) {
-        return -1;
-    }
-    // names must be equal
-    return 0;
-}))
+// console.log(items.sort((a, b) => {
+//     const nameA = a.name // ignore upper and lowercase
+//     const nameB = b.name // ignore upper and lowercase
+//     if (nameA > nameB) {
+//         return 1;
+//     }
+//     if (nameA < nameB) {
+//         return -1;
+//     }
+//     // names must be equal
+//     return 0;
+// }))
 
 // console.log(niz.join(''))
 // let str = 'danas je lep dan'
