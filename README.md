@@ -29,3 +29,5 @@ touch imeFajla
 mkdir imeFoldera
 rm imeFajla
 rm -r imeFoldera
+
+pozdrav
