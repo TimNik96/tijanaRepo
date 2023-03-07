@@ -1,3 +1,8 @@
+/* @font-face {
+    font-family: mojeNekiFont;
+    src: url('../');
+} */
+
 * {
     margin: 0;
     padding: 0;
@@ -21,17 +26,22 @@
     justify-content: space-between;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-
 }
 
-.navigation {
+header nav {
+    display: flex;
     justify-content: flex-end;
+    align-items: center;
+    column-gap: 1rem;
+    
+}
+
+header nav a {
     text-decoration: none;
-    color: rgb(82, 82, 82);
+    color: #000;
 }
 
 .cover {
-    background-image: url('./img/landscapebest_1-1500x1000.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,6 +54,19 @@
     padding-bottom: 4rem;
     height: 45vh;
 }
+
+.s_1 {
+    background-image: url('./img/landscapebest_1-1500x1000.jpg')
+}
+
+.s_2 {    
+    background-image: url('./img/@karolnienartowicz-Bieszczady-2.jpg');
+}
+
+.s_3 {
+    /* isto kao gore */
+}
+
 
 h1 {
     color: rgb(255, 255, 255);
@@ -74,7 +97,6 @@ h1 {
 
 .picture1 {
     grid-area: picture1;
-
 }
 
 .naslov {
@@ -115,6 +137,11 @@ h3 {
     height: fit-content;
     color: white;
     font-weight: 400;
+    cursor: pointer;
+}
+
+.container2 .button {
+    justify-self: center;
 }
 
 .container2 {
@@ -277,7 +304,6 @@ h3 {
     clip-path: polygon(0 0, 0 75%, 50% 100%, 100% 75%, 100% 0);
     padding-bottom: 14rem;
     height: 45vh;
-    z-index: 1;
 }
 
 .end {
@@ -290,11 +316,9 @@ h3 {
 }
 
 .end nav {
-
     justify-content: flex-end;
     text-decoration: none;
     color: rgb(255, 255, 255);
-
 }
 
 .kraj {

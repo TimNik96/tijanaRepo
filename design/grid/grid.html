@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 1rem 1rem;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "slika_1 slika_1 slika_2 slika_2"
+                "slika_1 slika_1 slika_2 slika_2"
+                "slika_3 slika_3 slika_4 slika_4"
+                "slika_3 slika_3 slika_4 slika_4";
+        }
+
+        .slika_1 {
+            grid-area: slika_1;
+            background-color: red;
+        }
+
+        .slika_2 {
+            grid-area: slika_2;
+            background-color: green;
+        }
+
+        .slika_3 {
+            grid-area: slika_3;
+            background-color: blue;
+        }
+
+        .slika_4 {
+            grid-area: slika_4;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="slika_1"></div>
+        <div class="slika_2"></div>
+        <div class="slika_3"></div>
+        <div class="slika_4"></div>
+    </div>
+</body>
+
+</html>

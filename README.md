@@ -30,7 +30,13 @@ mkdir imeFoldera
 rm imeFajla
 rm -r imeFoldera
 
-pozdrav
+KORISNI LINKOVI
+
+https://fontawesome.com/icons
+https://www.svgviewer.dev/
+https://flexboxfroggy.com/
+https://grid.layoutit.com/
+https://cssgridgarden.com/
 
 #Domaci_1
 
