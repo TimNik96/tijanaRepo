@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+
+        }
+
+        [type='text'] {
+
+        }
+
+        input {
+
+        }
+
+        [type='text']::placeholder {
+            
+        }
+
+        [type='text']:focus,
+        [type='password']:focus,
+        [type='email']:focus {
+            outline: none;
+        }
+
+        #username:hover {
+            border: 1px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="lokacija" method="tipHttpZahteva/GET/POST" enctype="">
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" placeholder="username" required>
+        </div>
+
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="date">Birthday: </label>
+            <input type="date" name="birthday" id="date" max="2023-04-01" min="">
+        </div>
+
+        <div>
+            <label for="phone">Phone: </label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+
+        <div>
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age" step="5" max="100" min="0">
+        </div>
+
+        <div>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="pol" id="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="pol" id="female" value="">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="omiljenaHrana">Omiljena hrana: </label>
+            <input type="checkbox" id="piletina">
+            <label for="piletina">Piletina</label>
+            <input type="checkbox" name="" id="pizza">
+            <label for="pizza">Pizza</label>
+            <input type="checkbox" name="" id="burger">
+            <label for="burger">Burger</label>
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <select name="bojaOciju" id="">
+            <option value="default" selected disabled>Choose an option</option>
+            <optgroup label="svetle">
+                <option value="plave">plave</option>
+                <option value="zelene">zelene</option>
+            </optgroup>
+            <optgroup label="tamne">
+                <option value="braon">braon</option>
+            </optgroup>
+        </select>
+
+        <div>
+            <label for="color">Color: </label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div>
+            <label for="cv">File: </label>
+            <input type="file" name="cv" id="cv">
+        </div>
+
+        <fieldset>
+            <legend>Login forma</legend>
+            <div>
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" placeholder="username" required>
+            </div>
+    
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password">
+            </div>
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
