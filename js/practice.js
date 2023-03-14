@@ -99,12 +99,12 @@
 
 // console.log(brojKaraktera)
 
-let broj = {
-    vrednost: 10
-}
+// let broj = {
+//     vrednost: 10
+// }
 
-let broj1 = broj
+// let broj1 = broj
 
-broj1.vrednost = 15
+// broj1.vrednost = 15
 
-console.log(broj)
+// console.log(broj)

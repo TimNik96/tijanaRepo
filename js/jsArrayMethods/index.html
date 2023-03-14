@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <br>
+    <input type="text" id="ageBox">
+    <button onclick="checkAge();">submit</button>
+    <br>
+    <!-- <input type="text" id="answer">
+    <br> -->
+    <div id="resultDiv">The result will appear here</div>
+
+    <script>
+        function checkAge() {
+
+
+            let age = document.getElementById('ageBox').value;
+
+            if (age > 17) {
+                console.log('adult');
+                // document.getElementById('answer').value = 'adult';
+                document.getElementById('resultDiv').innerHTML ='adult';
+                document.getElementById('resultDiv').style.backgroundColor='lightblue' ;
+            } else {
+                console.log('child');
+                // document.getElementById('answer').value = 'child';
+                document.getElementById('resultDiv').innerHTML ='child';
+                document.getElementById('resultDiv').style.backgroundColor= 'coral';
+            }
+        }
+
+       
+
+    </script>
+
+</body>
+
+</html>
