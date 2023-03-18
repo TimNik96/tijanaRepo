@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+.tabela{
+    display: flex;
+    justify-content: center;
+   width: fit-content;
+    margin: auto;
+    border: .2rem solid black;
+    
+
+}
+    td{
+        background-color: rgb(104, 203, 248);
+        border: .15rem solid white;
+        padding: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    th{
+        background-color: rgb(255, 254, 170);
+        color: rgb(221, 15, 15);
+        padding: .5rem 15rem;
+        font-size: 1.8rem;
+        text-align: center;
+        border: .15rem solid white;
+    }
+div{
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: .1rem;
+}
+.last{
+    text-align: center;
+    margin: auto;
+    
+   
+}
+.last input{
+    width: 7rem;
+    padding: .5rem 1rem;
+
+}
+   
+</style>
+<body>
+    <table class="tabela">
+        <th colspan="2">User Forms</th>
+        <tr>
+            <td><label for="username">Enter Name: </label></td>
+            <td><input type="text" name="name" id="name" style="background-color: rgb(177, 248, 236); border: .1rem solid gray; width: 100%;"  ></td>
+        </tr>
+
+        <tr>
+            <td><label for="username">Enter Password: </label></td>
+            <td><input type="text" name="password" id="password" style="background-color: rgb(177, 248, 236); border: .1rem solid gray; width: 100%"></td>
+        </tr>
+
+        <tr>
+            <td><label for="username">Enter Address: </label></td>
+            <td><textarea name="" id="" cols="30" rows="5" placeholder="coutry, city, street..." required style="background-color: rgb(177, 248, 236); border: .1rem solid gray; width: 100%"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="username">Select Game: </label></td>
+            <td>
+                <input type="checkbox" name="pol" id="female">
+                <label for="female">Hockey</label><br>
+                <input type="checkbox" name="pol" id="female">
+                <label for="female">Football</label><br>
+                <input type="checkbox" name="pol" id="female">
+                <label for="female">Bagminton</label><br>
+                <input type="checkbox" name="pol" id="female">
+                <label for="female">Cricket</label><br>
+                <input type="checkbox" name="pol" id="female">
+                <label for="female">Volleyball</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label for="gender">Gender: </label> </td>
+            <td>
+                <input type="radio" name="pol" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="pol" id="female" value="">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="username">Select your age: </label></td>
+            <td> <select name="select" id="select" class="unos" style="background-color: rgb(177, 248, 236); border: .1rem solid gray; width: 100%">
+                    <option value="select">please select... </option>
+                </select>
+            </td>
+        </tr>
+
+        <tr >
+            <td colspan="2" >
+                <div style="background-color: rgb(177, 248, 236); border: .1rem solid gray;">
+                    <input type='file' hidden id='choose' name='choose'>
+                    <input type='button' value='Browse'>
+                    <label id='selected' >No files selected.</label>
+                </td>
+                </div>
+        </tr>
+
+        <tr>
+            <td  colspan="2" class="last"> <input type="reset" value="Reset" style="background-color: rgb(177, 248, 236); border: .1rem solid gray;">
+                <input type="submit" value="Submit Form" style="background-color: rgb(177, 248, 236); border: .1rem solid gray;">
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
