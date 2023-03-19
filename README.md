@@ -37,6 +37,8 @@ https://www.svgviewer.dev/
 https://flexboxfroggy.com/
 https://grid.layoutit.com/
 https://cssgridgarden.com/
+https://www.webprogramiranje.org/
+https://animista.net/
 
 #Domaci_1
 

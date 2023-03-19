@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            animation-name: mojaAnimacija;
+            animation-duration: 3s;
+            animation-timing-function: cubic-bezier(0.86, 0.17, 0.01, 0.88);
+            /* animation-delay: 1s; */
+            animation-iteration-count: infinite;
+            /* animation-play-state: paused; */
+            animation-direction: normal;
+            animation-fill-mode: both;
+        }
+
+        /* @keyframes mojaAnimacija {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: green;
+            }
+        } */
+
+        @keyframes mojaAnimacija {
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: green;
+            }
+
+            50% {
+                background-color: black;
+            }
+
+            75% {
+                background-color: blueviolet;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+</body>
+
+</html>
