@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            row-gap: 1rem;
+            width: 98%;
+            margin: auto;
+            margin-top: .5rem;
+        }
+
+        .One {
+            text-align: start;
+            margin: 1rem;
+
+        }
+
+        section {
+            background-color: rgb(221, 231, 240);
+            border: .15rem dashed rgb(129, 35, 75);
+        }
+        .donjiDeo{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            row-gap: 1rem;
+            margin: 1rem;
+        }
+        h2{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color:rgb(207, 27, 81);
+            width: 50%;
+            margin: auto;
+            padding: .5rem;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            font-size: 1rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Welcome to the 24x7 Fitness Club: Courts Reservation Page!!</h2>
+    </div>
+    <section>
+        
+        <fieldset>
+            <legend class="One">Member Demographics</legend>
+            <div>
+                <label for="username">Name: </label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <legend>Are you a Member?</legend>
+            <div>
+
+                <input type="radio" name="pol" id="female" value="">
+                <label for="male">Member</label>
+                <input type="radio" name="pol" id="female" value="">
+                <label for="male">Non-member</label>
+
+            </div>
+            <!-- <br> -->
+            <div>
+                <label for="username">Email: </label>
+                <input type="text" name="username" id="username">
+            </div><br>
+
+        </fieldset>
+<div class="donjiDeo">
+        <div>
+            <label for="Gender" class="labele">Facility</label>
+            <select name="gender" id="gender" class="unos">
+                <option value="Male">Badminton</option>
+            </select>
+        </div>
+        <div>
+            <label for="date">Select a reservation date and time: </label> <br>
+            <br><input type="date" name="birthday" id="date" max="2023-04-01" min="">
+            <input type="date" name="birthday" id="date" max="2023-04-01" min="">
+        </div>
+        <div>
+            <input type="checkbox" name="pol" id="female">
+            <label for="female">I agree to the resrvation club's policy</label>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+    </section>
+</body>
+
+</html>

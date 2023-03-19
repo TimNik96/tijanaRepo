@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            background-color: rgb(235, 235, 235);
+        }
+       
+        fieldset{
+            background-color: white;
+            width: 20%;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            outline:none;
+            border: .09rem rgb(187, 187, 187) solid;
+
+        }
+        div, label, input, legend, textarea{
+            background-color: white;
+        }
+        legend, input{
+            border: .09rem rgb(187, 187, 187) solid;
+            padding: .5rem; 
+            font-size: .9rem; 
+        }
+       
+    </style>
+</head>
+
+<body>
+    <section>
+    <fieldset>
+        <legend>Personal information</legend>
+        <div>
+            <label for="username">Username: </label><br>
+            <input type="text" name="username" id="username" placeholder="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password: </label><br>
+            <input type="password" name="password" id="password">
+        </div><br>
+
+        <div>
+            <label for="password">Email: </label><br>
+            <input type="email" name="email" id="email" placeholder="tijana@gmail.com" required>
+        </div><br>
+
+        <div>
+            <label for="Gender" class="labele">Gender</label> <br>
+            <select name="gender" id="gender" class="unos"> <br>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+    </fieldset>
+
+<br>
+    <fieldset>
+        <legend>Your Favourites</legend>
+        <div>
+            <label for="gender">Choose your editor: </label> <br>
+            <input type="radio" name="pol" id="male" checked>
+            <label for="male">VSC</label><br>
+            <input type="radio" name="pol" id="female" value="">
+            <label for="female">Sublime text</label> <br>
+            <input type="radio" name="pol" id="female" value="">
+            <label for="female">Note ++</label>
+        </div>
+        <hr>
+        <div>
+            <label for="gender">Choose your browser: </label> <br>
+            <input type="radio" name="pol" id="male" checked>
+            <label for="male">Google Chromechecked</label><br>
+            <input type="radio" name="pol" id="female" value="">
+            <label for="female">Opera</label> <br>
+            <input type="radio" name="pol" id="female" value="">
+            <label for="female">Firefox</label>
+        </div>
+        <hr>
+        <div>
+            <label for="gender">Choose you operating system: </label> <br>
+            <input type="checkbox" name="pol" id="male" >
+            <label for="male">Windows</label><br>
+            <input type="checkbox" name="pol" id="female" >
+            <label for="female">Macintosh</label> <br>
+            <input type="checkbox" name="pol" id="female" checked>
+            <label for="female">Linux</label>
+        </div>
+
+    </fieldset>
+   <br>
+    <fieldset>
+        <legend>Your Message</legend>
+        <div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          <br>  
+        <select name="bojaOciju" id="">
+            <option value="default" selected disabled>Save your data</option>
+        </select>
+        </div>
+       
+
+    </fieldset>
+</section>
+</body>
+
+</html>

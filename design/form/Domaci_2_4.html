@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    table {
+
+        background-color: rgb(82, 82, 82);
+        width: 25%;
+
+    }
+
+    th {
+        background-color: rgb(255, 177, 60);
+        color: rgb(243, 243, 137);
+        text-align: left;
+        padding: .8rem 0 .8rem .5rem;
+        font-size: 1.2rem;
+    }
+
+    tr {
+        margin: 1rem;
+    }
+
+    label {
+        color: rgb(243, 243, 137);
+    }
+
+    .last {
+        background-color: rgb(255, 177, 60);
+        width: 100%;
+    }
+
+    .oznake {
+        text-align: right;
+        padding: .7rem 0 .7rem 0;
+        padding-right: 1rem;
+    }
+
+    .zadnji {
+        background-color: rgb(255, 177, 60);
+        height: 3.5rem;
+        text-align: right;
+    }
+</style>
+
+<body>
+    <table class="tabela">
+        <th colspan="2">Sign Up</th>
+
+        <tr>
+            <td class="oznake"><label for="username">First Name </label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter First Name"></td>
+        </tr>
+        <tr>
+            <td class="oznake"><label for="username">Last Name </label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter Last Name"></td>
+        </tr>
+        <tr>
+            <td class="oznake"><label for="username">Date od Birth </label></td>
+            <td> <select name="date" id="select" class="unos">
+                    <option value="select">Date </option>
+                </select>
+                <select name="Month" id="select" class="unos">
+                    <option value="select">Month </option>
+                </select>
+                <select name="Year" id="select" class="unos">
+                    <option value="select">Year </option>
+                </select>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td class="oznake"> <label for="gender">Gender </label> </td>
+            <td>
+                <input type="radio" name="pol" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="pol" id="female" value="">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="oznake"><label for="username">Country </label></td>
+            <td> <select name="Country" id="select" class="unos">
+                    <option value="select">Country </option>
+                </select>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td class="oznake"><label for="username">E-mail </label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter E-mail"></td>
+        </tr>
+        <tr>
+            <td class="oznake"><label for="username">Phone </label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter Phone"></td>
+        </tr>
+        <tr>
+            <td class="oznake"><label for="password">Password </label></td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+            <td class="oznake"><label for="Confirm password">Confirm Password </label></td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+            <td><label for=""> </label></td>
+            <td>
+                <input type="checkbox" name="terms" id="terms">
+                <label for="female">I agree to the Terms of use</label>
+            </td>
+        </tr>
+
+        <tr class="zadnji">
+                <td colspan="4"> <input type="submit" value="Submit Query"
+                        style="background-color: rgb(25, 197, 91); border: none; padding: .5rem 1rem;  color: white; ">
+                    <input type="button" value="Cancel" style="background-color: rgb(255, 69, 36); border: none; padding: .5rem 1rem; margin-right: 1rem;  color: white;">
+                </td>
+        </tr>
+    </table>
+</body>
+
+</html>
