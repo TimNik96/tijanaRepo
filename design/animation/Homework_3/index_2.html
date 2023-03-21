@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes levo{
+    0% {
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(-3000px);
+    }
+}
+
+@keyframes desno{
+    0% {
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(3000px);
+    }
+}
+
+#nebo{
+    background-color: skyblue;
+    min-height: 30vh;
+    position: relative;
+}
+
+#trava{
+    background-color: green;
+    min-height: 25vh;
+}
+
+#levaTraka{
+    background-color: grey;
+    border-top: 10px solid lightgray;
+    border-bottom: 8px dashed white;
+    min-height: 10vh;
+}
+
+#desnaTraka{
+    background-color: grey;
+    border-bottom: 10px solid lightgray;
+    min-height: 11vh;
+}
+
+#Oblak{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    right: -300px;
+    animation: levo 28s ease-out infinite;
+}
+
+#mario{
+    display: flex;
+    position: relative;
+    left: -300px;
+    animation: desno 7s ease infinite;
+}
+
+#luigi{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    left: -300px;
+    animation: desno 10s ease infinite;
+}
+    </style>
+</head>
+<body>
+    <div id="nebo">
+        <img src="./img/cloud.png" id="Oblak" alt="oblak">
+    </div>
+    <div id="trava"></div>
+    <div id="levaTraka">
+        <img src="./img/mario.png" id="mario" alt="mario">
+    </div>
+    <div id="desnaTraka">
+        <img src="./img/luigi.png" id="luigi" alt="luigi">
+    </div>
+</body>
+</html>
