@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domaci2_2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #container {
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            /* align-items: flex-start; */
+            text-align: center;
+            margin: auto;
+            height: 100vh;
+            position: relative;
+            background-color: rgb(34, 34, 34);
+
+        }
+
+        #container2 {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            /* margin: auto; */
+            z-index: 1;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            height: 100%;
+            width: 100%;
+        }
+
+        #naslov {
+            color: white;
+            margin: 2rem;
+        }
+
+        #mario {
+            width: 300px;
+            align-self: flex-end;
+            position: absolute;
+            right: 500px;
+
+        }
+
+        #question {
+            width: 100px;
+            animation: question .5s linear infinite;
+        }
+
+        #coin {
+            width: 100px;
+            animation: coin 1s  linear infinite;
+        }
+
+        @keyframes coin{
+            0% {
+                transform: translateY(0px) rotateY(0deg);
+                opacity: 1;
+            }
+
+            50% {
+                transform: translateY(-100px) rotateY(180deg);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(-100px) rotateY(360deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes question{
+            0% {
+                transform: translateY(0px) ;
+            }
+
+            50% {
+                transform: translateY(-10px) ;
+            }
+
+            100% {
+                transform: translateY(0px) ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1 id="naslov">Super Mario</h1>
+        <img id="mario" src="./img/Super-Mario-06.png" alt="mario">
+    </div>
+    <div id="container2">
+        <img id="question" src="./img/117-1174378_block-super-mario-question-block.png" alt="question">
+        <img id="coin" src="./img/1200px-CoinMK8.png" alt="coin">
+    </div>
+</body>
+
+</html>
