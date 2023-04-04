@@ -108,3 +108,46 @@
 // broj1.vrednost = 15
 
 // console.log(broj)
+
+
+
+// Za unetu temperaturu, u paragrafu ispisati “Temperatura u plusu” crvenom bojom ili “Temperatura u minusu” plavom bojom. Ukoliko je temperatura nula, računati kao temperaturu u plusu.
+
+// const body = document.body
+// let temperatura=-26;
+// const paragraf=document.createElement('p')
+
+
+// if (temperatura>=0){
+//   paragraf.textContent= 'Temperatura je u plusu'
+//   paragraf.style.color= 'red'
+// }
+// else{
+//     paragraf.textContent= 'Temperatura je u minusu'
+//   paragraf.style.color= 'blue' 
+// }
+
+// body.appendChild(paragraf)
+
+// Data je promenljiva u kojoj je ukupan broj evra koji posedujemo, kao i promenljive u kojima je vrednost kurseva evro-dinar, kao i dolar-dinar, redom. Odrediti koliko ćemo imati dolara nakon razmene. Uraditi isto i za konverziju iz dolare u evre
+
+// let eur=300
+// let dinar_dolar=109
+// let dinar_eur=117.5
+// let sum
+
+// sum= Math.ceil(eur*dinar_eur/dinar_dolar) 
+
+// console.log(sum)
+
+// function konverzija(eur) {
+//     let dinar_dolar = 109
+//     let dinar_eur = 117.5
+//     let sum = eur * dinar_eur / dinar_dolar
+//     return sum
+// }
+
+// console.log(konverzija(300))
+
+
+let niz = ['informaciona struktura', 'dizajn sadrzaja', 'optimizacija za pretrazivac']
