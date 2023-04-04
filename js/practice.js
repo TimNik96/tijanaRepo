@@ -108,3 +108,47 @@
 // broj1.vrednost = 15
 
 // console.log(broj)
+
+// -Faktorijel broja
+
+// let faktorijel = 5
+// let sum = 1
+// const pRezultat = document.createElement('p')
+// document.body.appendChild(pRezultat)
+
+// for(let i = faktorijel; i >= 1; i--) {
+//     sum *= i
+// }
+
+// pRezultat.textContent = sum
+
+// -Stepen broja
+
+// let osnova = 10
+// let eksponent = 3
+// let sum = 1
+// const pRezultat = document.createElement('p')
+// document.body.appendChild(pRezultat)
+// Math.pow(osnova, eksponent)
+
+// for(let i = 0; i < eksponent; i++) {
+
+// }
+
+// for(let i = eksponent; i > 0; i--) {
+//     sum *= osnova
+// }
+
+// pRezultat.textContent = sum
+
+// -Cena pizze prema precniku
+
+// let precnik = 30
+// let cenaPoCM2 = 1
+
+// let pPizze = Math.round(Math.pow(precnik / 2, 2) * Math.PI) * cenaPoCM2
+
+// console.log(pPizze);
+
+// -Date su dve promenljive u kojima su dati vreme u satima i minutima. Izračunati koliko minuta je prošlo od ponoći.
+
