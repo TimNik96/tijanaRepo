@@ -152,3 +152,23 @@
 
 // -Date su dve promenljive u kojima su dati vreme u satima i minutima. Izračunati koliko minuta je prošlo od ponoći.
 
+// Za dato vreme u minutima koji su prošli od ponoći, odrediti koliko je to u satima i minutima.
+
+// let minuti= 127
+// let sati= Math.floor(minuti/60) 
+// let minuta= minuti%60
+
+// console.log(`Proslo je ${sati} sati i ${minuta} minuta`)
+
+// Date su dve promenljive kojima se zadaje cena robe i uneta novčanica kojom kupac plaća račun. Ispisati koliki kusur kasirka treba da mu vrati.
+
+// let cena=100
+// let novac=90
+
+// if(cena<=novac){
+//     let kusur= novac-cena
+//     console.log(kusur)
+// }
+// else{
+//     console.log ('Nema dovoljno')
+// }
