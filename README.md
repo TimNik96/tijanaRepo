@@ -62,3 +62,16 @@ https://animista.net/
 5. Na osnovu unetog broja poena u paragrafu ispitati koju ocenu profesor treba da upiše učeniku. Učenik je položio ispit nekom ocenom ukoliko ima više od 50 poena, u suprotnom treba ispisati da je pao ispit. Za više od 50 poena učenik dobija ocenu 6, za više od 60 poena učenik dobija ocenu 7, za više od 70 poena učenik dobija ocenu 8, za više od 80 poena učenik dobija ocenu 9 i za više od 90 poena učenik dobija ocenu 10.
 6. Za vreme preuzeto sa računara ispisati dobro jutro za vreme manje od 12 sati ujutru, dobar dan za vreme manje od 18 sati, u ostalim slučajevima ispisati dobro veče.
 7. Radno vreme jedne programerske firme je od 9h do 17h. Preuzeti vreme sa računara i ispitati da li u to vreme firma radi ili ne radi.
+
+#Domaci_3
+
+1. Za uneti broj ispitati da li je paran ili nije.
+2. Za uneti broj ispisati da li je deljiv sa 3 ili ne.
+3. Za dva uneta broja, od većeg učitanog broja oduzeti manji i rezultat ispisati na ekranu.
+4. Za uneti broj ispitati da li je on manji od nule, veći od nule ili jednak nuli. Ukoliko je manji ili jednak nuli ispisati njegov prethodnik, a ukoliko je veći od nule ispisati njegov sledbenik.
+5. Za tri uneta broja ispisati koji od njih je najveći, koji od njih je srednji, a koji od njih je najmanji, korišćenjem if – else if strukture.
+6. Za učitani broj ispitati da li je ceo.
+7. Za tri uneta broja ispisati koji od njih je najveći, koji od njih je srednji, a koji od njih je najmanji, ovoga puta korišćenjem ugnježdenog grananja.
+8. Učitati dva cela broja i ispitati da li je veći od njih paran.
+9. Uneti dva datuma i ispisati onaj koji je raniji. Datume unosimo tako što u posebnim promenljivama navedemo dan, mesec i godinu, za svaki od njih.
+10. Ispitati da li je trenutna godina prestupna. (godinu preuzeti iz vremena na Vašem računaru).Godina je prestupna ako je deljiva sa 4 i nije deljiva sa 100 ili ako je deljiva sa 400.
