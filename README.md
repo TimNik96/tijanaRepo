@@ -52,3 +52,13 @@ https://animista.net/
 8. Za unetu zapreminu proizvoda, u paragrafu ispisati “Throw away”, ukoliko je proizvod zapremine veće od 100ml. U suprotnom ispisati “Pack up”.
 9. Za unetu temperaturu u paragrafu, ispisati “Temperatura u plusu” crvenom bojom ili “Temperatura u minusu” plavom bojom. Ukoliko je temperatura nula, računati kao temperaturu u plusu.
 10. U odnosu na pol koji je korisnik uneo u promenljivu (“m” za muški pol ili “z” za ženski pol) na ekranu prikazati odgovarajući avatar (odgovarajuću sličicu).
+
+#Domaci_2
+
+1. U odnosu na preuzeto trenutno vreme sa računara, u paragrafu ispisati da li je trenutno jutro ili popodne. Popodne je kada prođe 12:00 sati, ne računajući i to vreme.
+2. Za preuzetu godinu sa računara i unetu godinu rođenja izračunati i u paragrafu ispisati da li je osoba punoletna ili maloletna. osoba je punoletna kada napuni 18 godina.
+3. Odrediti i u paragrafu ispisati najveći od tri uneta broja (samo uz pomoć if naredbi, bez korišćenja logičkih operatora).
+4. Preuzeti koji je dan u nedelji sa računara i ispitati da li je to radni dan ili je u pitanju vikend.
+5. Na osnovu unetog broja poena u paragrafu ispitati koju ocenu profesor treba da upiše učeniku. Učenik je položio ispit nekom ocenom ukoliko ima više od 50 poena, u suprotnom treba ispisati da je pao ispit. Za više od 50 poena učenik dobija ocenu 6, za više od 60 poena učenik dobija ocenu 7, za više od 70 poena učenik dobija ocenu 8, za više od 80 poena učenik dobija ocenu 9 i za više od 90 poena učenik dobija ocenu 10.
+6. Za vreme preuzeto sa računara ispisati dobro jutro za vreme manje od 12 sati ujutru, dobar dan za vreme manje od 18 sati, u ostalim slučajevima ispisati dobro veče.
+7. Radno vreme jedne programerske firme je od 9h do 17h. Preuzeti vreme sa računara i ispitati da li u to vreme firma radi ili ne radi.
