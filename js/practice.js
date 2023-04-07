@@ -172,3 +172,119 @@
 // else{
 //     console.log ('Nema dovoljno')
 // }
+
+
+
+//////////////////////////////////////////////////////
+
+// Uraditi zadatak 1 tako da se dohvati trenutno vreme, i za njega odredi koliko minuta je prošlo od ponoći.
+// let minuti= 127
+// let sati= Math.floor(minuti/60) 
+// let minuta= minuti%60
+
+// console.log(`Proslo je ${minuta} minuta posle ponoci`)
+
+
+
+//////////////////////////////////////////////////////
+
+// Ispisati u konzoli današnji datum u formatima dd.mm.yyyy. i yyyy/mm/dd.
+
+// let dd=7
+// let mm= 4
+// let yy=2023
+// console.log(`${dd}.${mm}.${yy} i ${yy}/${mm}/${dd}`)
+
+
+//////////////////////////////////////////////////////
+
+// Data je promenljiva u kojoj je ukupan broj evra koji posedujemo, kao i promenljiva u kojoj je vrednost trenutnog kursa. Odrediti koliko ćemo imati dinara nakon razmene. Uraditi isto i za konverziju iz dinara u evre..
+
+
+// let sumaEura=300
+// let kurs=118
+
+// let dinar=sumaEura*kurs
+// console.log(dinar);
+
+// let euri=dinar/kurs
+// console.log(euri);
+
+
+//////////////////////////////////////////////////////
+
+// Data je promenljiva u kojoj je ukupan broj evra koji posedujemo, kao i promenljive u kojima je vrednost kurseva evro-dinar, kao i dolar-dinar, redom. Odrediti koliko ćemo imati dolara nakon razmene. Uraditi isto i za konverziju iz dolare u evre.
+
+// let sumaEura=300
+// let evroDin=118
+// let dolarDin=107
+
+// let razmenaUdinare=sumaEura*evroDin
+
+
+// let razmenaUdolare= Math.floor(razmenaUdinare/107) 
+// console.log(razmenaUdolare);
+
+// let razmenaUevre= Math.floor(razmenaUdolare*0.91) 
+// console.log(razmenaUevre);
+
+
+//////////////////////////////////////////////////////
+
+// Za unetu zapreminu proizvoda, u paragrafu ispisati “Throw away”, ukoliko je proizvod zapremine veće od 100ml. U suprotnom ispisati “Pack up”.
+
+// const body = document.body
+// let zapremina = 50
+// const p=document.createElement('p')
+
+// // // if(zapremina>100){
+// // // console.log(`Throw away`)
+// const rezultat = (zapremina > 100) ? "Throw away." : "Puck up.";
+// p.innerHTML=rezultat
+// body.appendChild(p)
+
+// // }
+// // else{
+// //     console.log ('Puck up')
+// // }
+
+
+//////////////////////////////////////////////////////
+
+// Za unetu temperaturu u paragrafu, ispisati “Temperatura u plusu” crvenom bojom ili “Temperatura u minusu” plavom bojom. Ukoliko je temperatura nula, računati kao temperaturu u plusu.
+
+// const body = document.body
+// let temp = -5
+// const p=document.createElement('p')
+
+// if(temp >=0) {
+//     p.innerHTML='Temperatura je u plusu'
+//     p.style.color= 'red' 
+// }
+//     else{
+//         p.innerHTML='Temperatura je u minusu'
+//         p.style.color= 'blue'  
+//         }
+
+//         body.appendChild(p)
+
+
+//////////////////////////////////////////////////////
+
+// U odnosu na pol koji je korisnik uneo u promenljivu (“m” za muški pol ili “z” za ženski pol) na ekranu prikazati odgovarajući avatar (odgovarajuću sličicu).
+
+// const body=document.body
+// const p= document.createElement('p')
+
+
+// let pol = 'm'
+
+// if(pol=='m') {
+//     p.innerHTML= '<img src="https://static.escolakids.uol.com.br/2019/07/coala.jpg">'
+
+// }
+//     else{
+//         p.innerHTML= '<img src="https://static.escolakids.uol.com.br/2019/07/coala.jpg">'
+//         }
+
+//         body.appendChild(p)
