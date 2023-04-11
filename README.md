@@ -75,3 +75,23 @@ https://animista.net/
 8. Učitati dva cela broja i ispitati da li je veći od njih paran.
 9. Uneti dva datuma i ispisati onaj koji je raniji. Datume unosimo tako što u posebnim promenljivama navedemo dan, mesec i godinu, za svaki od njih.
 10. Ispitati da li je trenutna godina prestupna. (godinu preuzeti iz vremena na Vašem računaru).Godina je prestupna ako je deljiva sa 4 i nije deljiva sa 100 ili ako je deljiva sa 400.
+
+#Domaci_4
+
+1. Preuzeti proizoljne tri slike sa istom ekstenzijom i imenovati ih 1, 2 i 3. 
+2. For petljom u HTML-u ispisati svaku od sličica uz pomoć brojača (iteratora).
+3. Odrediti proizvod svih brojeva deljivih sa 11 u intervalu od 20 do 100. *
+4. Prebrojati koliko ima brojeva deljivih sa 13 u intervalu od 5 do 150.
+5. Ispisati aritmetičku sredinu brojeva od n do m.
+6. Prebrojati koliko brojeva od n do m je pozitivno, a koliko njih je negativno. *
+7. Prebrojati koliko je brojeva od 5 do 50 koji su deljivi sa 3 ili sa 5. *
+8. Prebrojati i izračunati sumu brojeva od n do m kojima je poslednja cifra 4.
+9. Odrediti sumu brojeva od n do m koji nisu deljivi brojem a.
+10. Odrediti proizvod brojeva od n do m koji su deljivi brojem a.
+11. Odrediti sa koliko brojeva je deljiv uneti broj k.
+12. Odrediti da li je dati prirodan broj n prost. Broj je prost ako je deljiv samo sa jedan i sa samim sobom.
+13. Ispisati dvostruku vrednost brojeva od 5 do 15
+14. Odrediti sumu brojeva od 1 do n
+15. Odrediti sumu brojeva od n do m 
+16. Odrediti proizvod brojeva od n do m
+17. Odrediti sumu kvadrata brojeva od n do m
