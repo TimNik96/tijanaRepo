@@ -10,7 +10,7 @@
 
     <style>
         * {
-            background-color: rgb(235, 235, 235);
+            padding: 0;
             margin: 0;
         }
 
@@ -26,12 +26,11 @@
             flex-direction: column;
             background-color: white;
             width: 20%;
-            margin: auto;
-            margin-top: 1rem;
+            padding: .5rem;
+            margin: .5rem auto;
             font-family: Arial, Helvetica, sans-serif;
             outline: none;
             border: .09rem rgb(187, 187, 187) solid;
-            height: 28vh;
         }
 
         div,
@@ -41,19 +40,22 @@
         textarea {
             background-color: white;
         }
-        .prvo{
-            margin-top: 1rem;
+
+        fieldset [type='submit'] {
+            color: white;
+            background-color: rgb(96, 189, 96); 
+            border: none;
+            padding: .3rem;
+            margin: .5rem 0; 
         }
+
         .clock {
             text-align: center;
             font-size: 22px;
             background-color:rgb(96, 189, 96);
-            position: relative;
             padding: .5rem;
             margin: 1rem 0;
             color: #ffffff;
-         
-
         }
 
         input {
@@ -61,39 +63,42 @@
             padding: .2rem;
             font-size: .9rem;
         }
+
+        .porudzbina {
+            width: 20%;
+            padding: .5rem;
+            margin: .5rem auto;
+            border: .09rem rgb(187, 187, 187) solid;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
     <form>
-
         <fieldset>
             <div class="prvo">
                 <label for="vrstaPice" class="labele">Vrsta pice</label> <br>
-                <select name="vrsta" id="vrsta" class="unos"> <br>
+                <select name="vrsta" id="vrsta" class="unos"> 
+                    <option value="default" selected disabled>Izaberite Pizzu</option>
                     <option value="Margarita">Margarita</option>
                     <option value="Cappriciosa">Cappriciosa</option>
                 </select>
+                <!-- <p class="errVrsta"> </p> -->
             </div>
             <br>
             <div>
                 <label for="precnik">Precnik pice: </label><br>
-                <input type="number" name="precnik" id="precnik" placeholder="cm" required>
-            </div><br>
+                <input type="text" name="precnik" id="precnik" placeholder="cm">
+            </div>
             <div>
-                <input type="submit" value="Poruci"
-                    style="background-color: rgb(96, 189, 96); border: none; padding: .3rem; color: white;">
-            </div><br>
-
+                <input type="submit" value="Poruci">
+            </div>
             <div>
                 <h3>Digital clock</h3>
                 <p class="clock"></p>
             </div>
-
         </fieldset>
-
-
-
     </form>
 </body>
 

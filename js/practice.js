@@ -716,7 +716,7 @@
 //         proizvod*=n
 //         brojac++
 //         n++
-        
+
 // }
 // console.log(proizvod)
 
@@ -757,7 +757,7 @@
 
 
 // for (let i = n; i < m; i++) {
-  
+
 //     if ( i < 0) {
 //        brojacN++
 //     }
@@ -935,4 +935,3 @@
 //         n++
 // }
 // console.log(sum)
-

@@ -1,4 +1,3 @@
-
 const forma = document.querySelector('form')
 const selectPizza = document.querySelector('select')
 const inputPrecnik = document.querySelector('#precnik')
@@ -25,8 +24,6 @@ const vreme = (upis) => {
     }, 1)
 }
 
-
-
 const cenaPizze = (vrstaPizze, velicina) => {
     let cenaBonus = 100
     let cena = Math.pow((velicina / 2), 2) * Math.PI
@@ -37,12 +34,54 @@ const cenaPizze = (vrstaPizze, velicina) => {
     return Math.round(cena) 
 }
 
-forma.addEventListener('submit', (event) => {
-    event.preventDefault()
-    // console.log(event)
-    console.log('pozdrav nakon klika')
-    let cena = cenaPizze(selectPizza.value, +inputPrecnik.value)
-    console.log(`Porucili ste ${selectPizza.value} od ${inputPrecnik.value} cm i cena za naplatu je ${cena}`)
-})
+const porudzbina = (cenaPizze, vrstaPizze, velicinaPizze, vremePorudzbine) => {
+    const p = document.createElement('p')
+    p.classList.add('porudzbina')
+    p.innerHTML = `Porucili ste ${vrstaPizze} od ${velicinaPizze} cm u ${vremePorudzbine} sati i cena za naplatu je ${cenaPizze} dinara. <br> Porudzbina stize na vasu adresu za 30 minuta.`
+    document.body.appendChild(p)
+    setTimeout(() => {
+        document.body.removeChild(p)
+    }, 5000)
+}
 
 vreme(pClock)
+
+forma.addEventListener('submit', (event) => {
+    event.preventDefault()
+
+    // Guard clauses 
+    if(selectPizza.value === 'default') {
+        alert('Molimo izaberite vrstu pizze!')
+        return
+    }
+
+    if(inputPrecnik.value === '') {
+        inputPrecnik.style.color = 'red'
+        inputPrecnik.value = 'Popunite polje!'
+
+        setTimeout(() => {
+            inputPrecnik.value = ''
+            inputPrecnik.style.color = 'black'
+        }, 3000)
+
+        return
+    }
+
+    if(isNaN(inputPrecnik.value)) {
+        inputPrecnik.style.color = 'red'
+        inputPrecnik.value = 'Morate uneti broj!'
+
+        setTimeout(() => {
+            inputPrecnik.value = ''
+            inputPrecnik.style.color = 'black'
+        }, 3000)
+
+        return
+    }
+
+    let cena = cenaPizze(selectPizza.value, +inputPrecnik.value)
+    // console.log(`Porucili ste ${selectPizza.value} od ${inputPrecnik.value} cm i cena za naplatu je ${cena}`)
+    porudzbina(cena, selectPizza.value, +inputPrecnik.value, pClock.textContent)
+})
+
+
