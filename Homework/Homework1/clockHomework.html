@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./clockHomework.js" defer></script>
+
+    <style>
+        * {
+            background-color: rgb(235, 235, 235);
+            margin: 0;
+        }
+
+        /* body {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+
+        } */
+    
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            width: 20%;
+            margin: auto;
+            margin-top: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: none;
+            border: .09rem rgb(187, 187, 187) solid;
+            height: 28vh;
+        }
+
+        div,
+        label,
+        input,
+        legend,
+        textarea {
+            background-color: white;
+        }
+        .prvo{
+            margin-top: 1rem;
+        }
+        .clock {
+            text-align: center;
+            font-size: 22px;
+            background-color:rgb(96, 189, 96);
+            position: relative;
+            padding: .5rem;
+            margin: 1rem 0;
+            color: #ffffff;
+         
+
+        }
+
+        input {
+            border: .09rem rgb(187, 187, 187) solid;
+            padding: .2rem;
+            font-size: .9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+
+        <fieldset>
+            <div class="prvo">
+                <label for="vrstaPice" class="labele">Vrsta pice</label> <br>
+                <select name="vrsta" id="vrsta" class="unos"> <br>
+                    <option value="Margarita">Margarita</option>
+                    <option value="Cappriciosa">Cappriciosa</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="precnik">Precnik pice: </label><br>
+                <input type="number" name="precnik" id="precnik" placeholder="cm" required>
+            </div><br>
+            <div>
+                <input type="submit" value="Poruci"
+                    style="background-color: rgb(96, 189, 96); border: none; padding: .3rem; color: white;">
+            </div><br>
+
+            <div>
+                <h3>Digital clock</h3>
+                <p class="clock"></p>
+            </div>
+
+        </fieldset>
+
+
+
+    </form>
+</body>
+
+</html>
