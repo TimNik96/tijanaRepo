@@ -562,21 +562,43 @@
 /////////////////////////////////////////////////////
 // 7. Za tri uneta broja ispisati koji od njih je najveći, koji od njih je srednji, a koji od njih je najmanji, ovoga puta korišćenjem ugnježdenog grananja.
 
-// let a=28
-// let b=8
-// let c=12
-// // let max
+// let broj1=3
+// let broj2=8
+// let broj3=12
+// // // let max
+// if(broj1 > broj2 && broj1 > broj3) {
+//             if(broj2 > broj3) {
+//                 console.log(`${broj1} je najveci broj, ${broj2} je srednji broj, a ${broj3} je najmanji broj`)
+//             } else {
+//                 console.log(`${broj1} je najveci broj, ${broj3} je srednji broj, a ${broj2} je najmanji broj`)
+//             }
+//         }
+//     if(broj2 > broj3 && broj2 > broj1) {
+//             if(broj1 > broj3) {
+//                 console.log(`${broj2} je najveci broj, ${broj1} je srednji broj, a ${broj3} je najmanji broj`)
+//             } else {
+//                 console.log(`${broj2} je najveci broj, ${broj3} je srednji broj, a ${broj1} je najmanji broj`)
+//             }
+//         }
+//     if(broj3 > broj1 && broj3 > broj2) {
+//             if(broj2 > broj1) {
+//                 console.log(`${broj3} je najveci broj, ${broj2} je srednji broj, a ${broj1} je najmanji broj`)
+//             } else {
+//                 console.log(`${broj3} je najveci broj, ${broj2} je srednji broj, a ${broj1} je najmanji broj`)
+//             }
+//         }
+
 
 // if(a<b){
 //     if(b<c){
 //         console.log('c je najveci, b je srednji, a je najmanji');
 //     }else if(a < c){
 //         console.log('b je najveci, c je srednji, a je najmanji ');
-        
+
 //     }else{
 //         console.log('b je najveci, a je srednji, c je najmanji');
 //     }}
- 
+
 
 /////////////////////////////////////////////////////
 // 8. Učitati dva cela broja i ispitati da li je veći od njih paran.
@@ -598,24 +620,24 @@
 // 9. Uneti dva datuma i ispisati onaj koji je raniji. Datume unosimo tako što u posebnim promenljivama navedemo dan, mesec i godinu, za svaki od njih.
 
 // let dan_1 = 20
-    // let mesec_1 = 12
-    // let godina_1 = 2022
-    // let dan_2 = 23
-    // let mesec_2 = 12
-    // let godina_2 = 2022
+// let mesec_1 = 12
+// let godina_1 = 2022
+// let dan_2 = 23
+// let mesec_2 = 12
+// let godina_2 = 2022
 // if(godina_1 <= godina_2) {
-    //     if(mesec_1 <= mesec_2) {
-    //         if(dan_1 <= dan_2) {
-    //             console.log(`${dan_1}/${mesec_1}/${godina_1}`)
-    //         } else {
-    //             console.log(`${dan_2}/${mesec_2}/${godina_2}`)
-    //         }
-    //     } else {
-    //         console.log(`${dan_2}/${mesec_2}/${godina_2}`)
-    //     }
-    // } else {
-    //     console.log(`${dan_2}/${mesec_2}/${godina_2}`)
-    // }
+//     if(mesec_1 <= mesec_2) {
+//         if(dan_1 <= dan_2) {
+//             console.log(`${dan_1}/${mesec_1}/${godina_1}`)
+//         } else {
+//             console.log(`${dan_2}/${mesec_2}/${godina_2}`)
+//         }
+//     } else {
+//         console.log(`${dan_2}/${mesec_2}/${godina_2}`)
+//     }
+// } else {
+//     console.log(`${dan_2}/${mesec_2}/${godina_2}`)
+// }
 
 
 /////////////////////////////////////////////////////
@@ -632,3 +654,285 @@
 
 // else
 // console.log('Godina nije prestupna')
+
+
+/////////////////////////////////////////////////////
+// Ispisati brojeve od 1 do 20
+
+// for (let i=1; i<=20; i++){
+//     console.log(i)
+// }
+
+
+
+/////////////////////////////////////////////////////
+// Ispisati brojeve od 20 do 1
+
+// for (let i=20; i>=1; i--){
+
+//     console.log(i)
+// }
+
+
+/////////////////////////////////////////////////////
+// Ispisati parne brojeve od 1 do 20 (uraditi zadatak na dva nacina)
+
+// for (let i=1; i<=20; i++){
+//     if (i%2==0){
+//     console.log(i)
+// }}
+
+// for (let i=2; i<=20; i+=2){
+
+//     console.log(i)
+// }
+
+
+/////////////////////////////////////////////////////
+
+// #Domaci_4
+
+// 1. Preuzeti proizoljne tri slike sa istom ekstenzijom i imenovati ih 1, 2 i 3. 
+// for(let i = 1; i <= 3; i++) {
+//     const img = document.createElement('img')
+//     img.setAttribute('src', `./${i}.jpg`)
+//     document.body.appendChild(img)
+// }
+
+/////////////////////////////////////////////////////
+// 2. For petljom u HTML-u ispisati svaku od sličica uz pomoć brojača (iteratora).
+
+
+
+/////////////////////////////////////////////////////
+// 3. Odrediti proizvod svih brojeva deljivih sa 11 u intervalu od 20 do 100. *
+// let n=20
+// let m=100
+// let brojac=0
+// let proizvod=1
+
+// while (n<=m){
+//     if(n%11==0)
+//         proizvod*=n
+//         brojac++
+//         n++
+        
+// }
+// console.log(proizvod)
+
+
+/////////////////////////////////////////////////////
+// 4. Prebrojati koliko ima brojeva deljivih sa 13 u intervalu od 5 do 150.
+// let n=5
+// let m=150
+// brojac=0
+// while (n<=m){
+//     if(n%13==0)
+//     brojac ++
+//     n++
+// }
+// console.log(brojac)
+
+
+/////////////////////////////////////////////////////
+// 5. Ispisati aritmetičku sredinu brojeva od n do m.
+// let n=2
+// let m=6
+// let aSredina=0
+// let brojac =0
+
+// for(let i=2; i<=m; i++){
+//     aSredina+=i
+//     brojac++
+// }
+// console.log(aSredina/brojac)
+
+/////////////////////////////////////////////////////
+// 6. Prebrojati koliko brojeva od n do m je pozitivno, a koliko njih je negativno. *
+
+// let n = -2
+// let m = 10
+// let brojacP = 0
+// let brojacN = 0
+
+
+// for (let i = n; i < m; i++) {
+  
+//     if ( i < 0) {
+//        brojacN++
+//     }
+//     else {
+//         brojacP++ 
+//     }
+// }
+// console.log(brojacN, brojacP)
+
+
+
+/////////////////////////////////////////////////////
+// 7. Prebrojati koliko je brojeva od 5 do 50 koji su deljivi sa 3 ili sa 5. *
+// let n = 5
+// let m = 50
+// let brojac=0
+
+// for (let i = 5; i < 50; i++) {
+//     if (i % 3 == 0 || i % 5 == 0) {
+//         brojac++
+//     }
+// }
+// console.log(brojac)
+
+
+
+/////////////////////////////////////////////////////
+// 8. Prebrojati i izračunati sumu brojeva od n do m kojima je poslednja cifra 4.
+
+
+// let n = 10
+// let m = 20
+// let suma = 0
+// while(n <= m) {
+//     if(n % 10 === 4)
+//         suma += n
+//     n++
+// }
+
+// console.log(suma)
+
+// for (let i = n; i <= m; i++) {
+//     if (n % 10 == 4)
+//         suma += n
+//     n++
+// }
+// console.log(suma)
+
+
+
+/////////////////////////////////////////////////////
+// 9. Odrediti sumu brojeva od n do m koji nisu deljivi brojem a.
+// let a=2
+// let m=6
+// let n=8
+// let suma=0
+// for (let i=m; i<=n; i++){
+//     if(i%a==0)
+//     suma+=i
+// }
+// console.log(suma)
+
+
+/////////////////////////////////////////////////////
+// 10. Odrediti proizvod brojeva od n do m koji su deljivi brojem a.
+// let a=2
+// let m=6
+// let n=9
+// let suma=1
+// for (let i=m; i<=n; i++){
+//     if(i%a==0)
+//     suma*=i
+// }
+// console.log(suma)
+
+// ili
+
+// let n = 1
+// let m = 5
+// let a = 2
+// let proizvod = 1
+
+// while(n < m) {
+//     if(n % a === 0)
+//         proizvod *= n
+//     n++
+// }
+// console.log(proizvod)
+
+
+/////////////////////////////////////////////////////
+// 11. Odrediti sa koliko brojeva je deljiv uneti broj k.
+
+// let k = 10
+// let i = 1
+// let brojac = 0
+
+// while(i < k) {
+//     if(k % i === 0)
+//         brojac++
+//     i++
+// }
+
+// console.log(`Broj ${k} je deljiv sa ${brojac} brojeva.`)
+
+/////////////////////////////////////////////////////
+// 12. Odrediti da li je dati prirodan broj n prost. Broj je prost ako je deljiv samo sa jedan i sa samim sobom.
+// let n=18.6
+
+// if (n%1==0 && n%n==0){
+//     console.log('n je prost broj')
+// }
+// else
+// console.log('n nije prost broj')
+
+
+
+/////////////////////////////////////////////////////
+// 13. Ispisati dvostruku vrednost brojeva od 5 do 15
+// let n=5
+// let m=15
+// for (let i=n; i<m; i++){
+//     console.log(i*2)
+// }
+
+
+
+/////////////////////////////////////////////////////
+// 14. Odrediti sumu brojeva od 1 do n
+// let n=1
+// let m=5
+// let suma=0
+// for (let i=1; i<m; i++){
+// suma +=i
+// }
+// console.group(suma)
+
+
+/////////////////////////////////////////////////////
+// 15. Odrediti sumu brojeva od n do m
+// let m=6
+// let n=8
+// let suma=0
+// for (let i=m; i<=n; i++){
+//     suma+=i
+// }
+// console.log(suma)
+
+
+/////////////////////////////////////////////////////
+// 16. Odrediti proizvod brojeva od n do m
+// let m=6
+// let n=8
+// let proizvod=1
+// for (let i=m; i<=n; i++){
+//     proizvod *=i
+// }
+// console.log(proizvod)
+
+/////////////////////////////////////////////////////
+// 17. Odrediti sumu kvadrata brojeva od n do m
+// let iterator
+// while(uslov) {
+//     //telo petlje
+
+//     inkrement iteratora
+//
+
+// let n = 2
+// let m = 4
+// let sum = 0
+
+// while (n<=m) {
+//         sum += n **2;
+//         n++
+// }
+// console.log(sum)
+
