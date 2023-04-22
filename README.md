@@ -95,3 +95,18 @@ https://animista.net/
 15. Odrediti sumu brojeva od n do m 
 16. Odrediti proizvod brojeva od n do m
 17. Odrediti sumu kvadrata brojeva od n do m
+
+#Domaci_5
+
+1. Ispisati brojeve od 1 do 20: -Svaki u istom redu -Svaki u novom redu
+2. Ispisati brojeve od 20 do 1.
+3. Ispisati parne brojeve od 1 do 20.
+4. Kreirati n paragrafa sa proizvoljnim tekstom i naizmenično ih obojiti u tri različite boje
+5. Kreirati n proizvoljnih slika i staviti im naizmenično dva različita okvira
+6. Odrediti sumu brojeva od 1 do 100
+7. Odrediti sumu brojeva od 1 do n
+8. Odrediti sumu brojeva od n do m
+9. Odrediti proizvod brojeva od n do m
+10. Odrediti sumu kvadrata parnih i sumu kubova neparnih brojeva od n do m
+11. Odrediti sa koliko brojeva je deljiv uneti broj k
+12. Odrediti da li je dati prirodan broj n prost. Broj je prost ako je deljiv samo sa jedan i sa samim sobom.
