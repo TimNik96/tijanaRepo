@@ -935,3 +935,48 @@
 //         n++
 // }
 // console.log(sum)
+
+// Odrediti sumu kvadrata brojeva od m do n.
+
+// const donjaGranicaInput = document.querySelector('#donjaGranica')
+// const gornjaGranicaInput = document.querySelector('#gornjaGranica')
+// const rezultatP = document.querySelector('p')
+// const btn = document.querySelector('button')
+// let n = 10
+// let m = 20
+// let suma = 0
+// let dg = +donjaGranicaInput.value
+
+// btn.addEventListener('click', () => {
+//     while(dg <= +gornjaGranicaInput.value) {
+//         suma += dg ** 2
+//         dg++
+//     }
+    
+//     rezultatP.textContent = 'Suma kvadrata je: ' + suma
+// })
+
+// let k = 10
+// let brojac = 0
+// let i = 1
+
+// while(i <= k) {
+//     if(k % i == 0) {
+//         brojac++
+//     }
+//     i++
+// }
+
+// console.log(brojac)
+
+// let niz = ['marko', 'uros', 'jana']
+
+// for(let i = 0; i < niz.length; i++) {
+//     console.log(niz[i])
+// }
+
+// let i = 0
+// while(i < niz.length) {
+//     console.log(niz[i])
+//     i++
+// }
