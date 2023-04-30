@@ -980,3 +980,22 @@
 //     console.log(niz[i])
 //     i++
 // }
+
+// let n = document.querySelector('#brojSlika')
+// let btn = document.querySelector('button')
+
+// btn.addEventListener('click', () => {
+//     for(let i = 0; i < +n.value; i++) {
+//         const img = document.createElement('img')
+//         img.setAttribute('src', '../Homework/Homework1/img/pic_1.jpg')
+//         img.style.padding = '.5rem'
+//         document.body.appendChild(img)
+
+//         if(i % 2 == 0) {
+//             img.style.border = '1px solid black'
+//             continue
+//         }
+
+//         img.style.border = '1px dashed red'
+//     }
+// })
